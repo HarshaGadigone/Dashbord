@@ -5,8 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './component/NavBar';
 import Nav2 from './component/Nav2';
 import TurnOnIdea from './component/TurnOnIdea';
-import Sidenav from './Sidenav';
-import MiniDrawer from './Sidenav';
+import MiniDrawer from './MiniDrawer';
 
 
 function App() {
@@ -14,13 +13,10 @@ function App() {
     <div class=" container-fluid">
 
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />*/}
-        {/*<NavBar/>*/}
-        {/*<Nav2/>*/}
-        {/*<TurnOnIdea/>*/}
+        
         <MiniDrawer/>
 
-        
+    
       
       </header>
     </div>
