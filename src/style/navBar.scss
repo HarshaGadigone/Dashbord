@@ -1,0 +1,46 @@
+.navmain{
+     color: white;
+    row-gap: 2px;
+    
+}
+.button-nav{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 45px;
+}
+.navbar-toggler{
+background-color: bisque;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: black !important;
+    color: antiquewhite;
+}
+
+.hover-underline-animation::after{
+
+    width: 50%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    transform-origin: bottom left;
+    transition: transform .25s ease-out;
+}
+.drfg{
+border: 2px solid rebeccapurple;
+color: #fff;
+background-color: black;
+}
+element.style {
+    color: white;
+    background-color: black;
+}
+
+.dropdown-toggle::after{
+    color: #fff;
+}
+.nav-link{
+    padding: 0px 2px;
+}

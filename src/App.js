@@ -1,22 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './component/NavBar';
+import Nav2 from './component/Nav2';
+import TurnOnIdea from './component/TurnOnIdea';
+import Sidenav from './Sidenav';
+import MiniDrawer from './Sidenav';
+
 
 function App() {
   return (
-    <div className="App">
+    <div class=" container-fluid">
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <img src={logo} className="App-logo" alt="logo" />*/}
+        {/*<NavBar/>*/}
+        {/*<Nav2/>*/}
+        {/*<TurnOnIdea/>*/}
+        <MiniDrawer/>
+
+        
+      
       </header>
     </div>
   );

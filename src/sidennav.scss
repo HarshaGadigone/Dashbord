@@ -1,0 +1,71 @@
+
+element.style {
+    background: white;
+}
+.objectBlu{
+   transform: scale(0.8);
+    z-index: 1;
+    filter: hue-rotate(360deg);
+}
+.bluerais{
+    border: 2px solid red ;
+    margin-left: -136px;
+    margin-top: -192px;
+   z-index: -1;
+   height: 192px;
+
+}
+.vecto{
+    margin-top: -61px;
+    
+}
+.rowco{
+    
+    width: 100%;
+    height: 70px;
+    color: black;
+    margin-left: 0px;
+
+}
+.css-hyum1k-MuiToolbar-root {
+    min-height: 64px;
+    background-color:white;
+}
+
+
+#profile{
+    max-width: 322px;
+    height: 559px;
+}
+#addcustomer{
+    max-width: 100%;
+    height: auto;
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 16px;
+    align-items: end;
+  margin-left: 490px;
+  margin-top: -8px;
+}
+#addcustomer:hover{
+    color: purple;
+    background-color: aliceblue;
+}
+#upgrad{
+    max-width: 130px;
+    height: auto;
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 16px;
+    margin-left: 50px;
+}
+#upgrad:hover{
+    color: purple;
+    background-color: aliceblue;
+}
+.liston{
+   color: grey;
+}
+.liston:hover{
+    color: blue;
+}

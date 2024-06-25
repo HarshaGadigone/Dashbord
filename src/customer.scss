@@ -1,0 +1,76 @@
+.main-customer{
+    background-color:rgba(241, 241, 239, 0.778);
+    width: 100%;
+}
+.listgroup{
+    background-color:rgba(241, 241, 239, 0.778);
+}
+
+.rowd{
+   background-color: white;
+   align-items: center;
+    max-width: 859px;
+     min-height: 56px;
+top: 128px;
+margin-left: 10px;
+gap: 0px;
+opacity: 0px;
+
+border-radius: 12px;
+
+
+    .gendar{
+       background-color:  rgb(191, 210, 249);
+       color:  rgba(91, 147, 255, 1) ;
+       
+        border-radius: 16px;
+        padding: 3px 17px 3px 17px;
+        border: none;
+        
+    }
+    .gendar2{
+        background-color: rgb(255, 235, 228);
+        color: rgba(255, 143, 107, 1);
+         border-radius: 16px;
+         padding: 3px 9px 3px 9px;
+         border: none;
+
+     }
+}
+.rowd:hover{
+color: gray;
+background-color: rgb(254, 253, 253);
+text-shadow: 7cap;
+border: 1px solid gray;
+padding: 2px;
+}
+#addcustomer{
+    max-width: 100%;
+    height: auto;
+    color: aliceblue;
+    background-color: rgba(96, 91, 255, 1);
+    border-radius: 10px;
+    align-items: end;
+    margin-left: 192px;
+    margin-top: 2px;
+    overflow: hidden;
+
+}
+#profile{
+    max-width: 322px;
+    height: 559px;
+}
+.colum2{
+    align-items: center;
+    background-color: white;
+}
+.contact-div{
+    opacity: 70%;
+   
+    margin-left: 10px;
+}
+.name{
+    
+    margin-left: 6px;
+    max-width: 860px;
+}
